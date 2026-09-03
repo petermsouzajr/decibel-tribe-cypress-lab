@@ -1,0 +1,22 @@
+{
+  "name": "decibel-tribe-cypress-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress practice lab against the live Decibel Tribe web app. Learners own this repo — not the app.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:open:local": "CYPRESS_BASE_URL=http://localhost:3000 cypress open",
+    "cy:run:local": "CYPRESS_BASE_URL=http://localhost:3000 cypress run",
+    "cy:smoke": "cypress run --env grep=smoke,grepFilterSpecs=true",
+    "cy:types": "tsc -p cypress/tsconfig.json --noEmit || tsc --noEmit",
+    "test": "npm run cy:run"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.10.0",
+    "@cypress/grep": "^4.1.0",
+    "cypress": "^15.20.1",
+    "cypress-axe": "^1.6.0",
+    "typescript": "^5.6.0"
+  }
+}
