@@ -1,3 +1,6 @@
+> **Learner lab:** This guide ships with [decibel-tribe-cypress-lab](https://github.com/petermsouzajr/decibel-tribe-cypress-lab).  
+> App under test: https://www.decibeltribe.com — see [docs/LAB_CONTRACT.md](../docs/LAB_CONTRACT.md).
+
 # Cypress Test Writing Guide
 
 This guide outlines the conventions and structure for writing Cypress end-to-end (E2E) tests in the Decibel Tribe project. Follow these guidelines to ensure consistency, maintainability, and clarity in our test suite.
